@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form method="GET" action="#">
+		<label for="nom">Nom </label>
+		<input type="text" id="nom" name="nom"><br>
+		<label for="cp">Code postal </label>
+		<input type="text" id="cp" name="cp"><br>
+		Allez-vous au moins une fois par mois au cinéma ? 
+		<label for="cineoui">Oui</label>
+		<input type="radio" id="cineoui" name="cine" value="oui">
+		<label for="cinenon">Non</label>
+		<input type="radio" id="cinenon" name="cine" value="non" checked><br>
+		<label for="theme">Votre theme préféré </label>
+		<select name="theme" id="theme">
+			<option value="passion" selected>Passion</option>
+			<option value="policier">Policier</option>
+			<option value="action">Action</option>
+			<option value="voyage">Voyage</option>
+			<option value="autre">Autre</option>
+		</select><br>
+		<button type="submit">Valider</button>
+		<button type="reset">RAZ</button>
+	</form>
+	<script type="text/javascript" src="site.js"></script>
+</body>
+</html>
